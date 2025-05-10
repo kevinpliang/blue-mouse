@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bbww6j66bavar"
-path="res://.godot/imported/icon.png-57e98db0a9bfd2d27482a7a1210037e0.ctex"
+uid="uid://w3qv4w6vvl0"
+path="res://.godot/imported/mail-truck.aseprite-c0a1587b41f7fa992a253b82c0e31cd8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/addons/nklbdev.aseprite_importers/icon.png"
-dest_files=["res://.godot/imported/icon.png-57e98db0a9bfd2d27482a7a1210037e0.ctex"]
+source_file="res://characters/assets/mail-truck.aseprite"
+dest_files=["res://.godot/imported/mail-truck.aseprite-c0a1587b41f7fa992a253b82c0e31cd8.ctex"]
 
 [params]
 
@@ -21,7 +21,7 @@ compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=false
+mipmaps/generate=true
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""

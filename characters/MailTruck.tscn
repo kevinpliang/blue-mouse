@@ -1,0 +1,85 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxo8yawme8me2"]
+
+[ext_resource type="Script" path="res://characters/mail_truck.gd" id="1_gtsx2"]
+[ext_resource type="Texture2D" uid="uid://w3qv4w6vvl0" path="res://characters/assets/mail-truck.aseprite" id="1_i6f6n"]
+
+[node name="MailTruck" type="CharacterBody2D"]
+script = ExtResource("1_gtsx2")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="12" type="Sprite2D" parent="Sprite2D"]
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)
+
+[node name="11" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, -1)
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(16, 0, 16, 16)
+
+[node name="10" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, -2)
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(32, 0, 16, 16)
+
+[node name="9" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, -3)
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(48, 0, 16, 16)
+
+[node name="8" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, -4)
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(64, 0, 16, 16)
+
+[node name="7" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, -5)
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(80, 0, 16, 16)
+
+[node name="6" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, -6)
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(96, 0, 16, 16)
+
+[node name="5" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, -7)
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(112, 0, 16, 16)
+
+[node name="4" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, -8)
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(128, 0, 16, 16)
+
+[node name="3" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, -9)
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(144, 0, 16, 16)
+
+[node name="2" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, -10)
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(160, 0, 16, 16)
+
+[node name="1" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(0, -11)
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(176, 0, 16, 16)
+
+[node name="0" type="Sprite2D" parent="Sprite2D"]
+texture = ExtResource("1_i6f6n")
+region_enabled = true
+region_rect = Rect2(192, 0, 16, 16)
