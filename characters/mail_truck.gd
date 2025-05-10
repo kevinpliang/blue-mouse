@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
-const ACCELERATION := 100.0
-const MAX_SPEED := 300.0
-const FRICTION := 200.0
+const ACCELERATION := 70.0
+const MAX_SPEED := 120.0
+const FRICTION := 100.0
 const TURN_SPEED := 3.0  # radians per second
 
 var direction: Vector2 = Vector2.RIGHT
