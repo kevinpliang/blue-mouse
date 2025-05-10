@@ -8,14 +8,8 @@ var player = null
 func _process(delta):
 	pass
 
-# helper method for creating nodes
-func instance_node(node, parent):
-	var node_instance = node.instance()
-	parent.add_child(node_instance)
-	return node_instance
-
-# helper method for creating node at a specific location 
-func instance_node_at(node, location, parent):
+# Helper method for creating nodes
+func instance_node(node, parent, location=Vector2(0,0)):
 	var node_instance = node.instance()
 	parent.add_child(node_instance)
 	node_instance.global_position = location
