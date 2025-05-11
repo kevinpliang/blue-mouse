@@ -1,7 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://dxkef1gc28ye"]
+[gd_scene load_steps=3 format=3 uid="uid://dxkef1gc28ye"]
 
 [ext_resource type="Script" path="res://game/Main.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://df7blng4hqveg" path="res://game/Menu.tscn" id="2_41vo2"]
 
 [node name="Main" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1")
+
+[node name="Menu" parent="." instance=ExtResource("2_41vo2")]
+
+[connection signal="button_down" from="Menu/VBoxContainer/Start" to="." method="_on_start_button_down"]
+
+[editable path="Menu"]
