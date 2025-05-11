@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://corvsy0iq2tw8"]
+
+[ext_resource type="Script" path="res://environment/mail.gd" id="1_i3v4f"]
+[ext_resource type="Texture2D" uid="uid://cqvlmytny07gj" path="res://environment/assets/mail.aseprite" id="2_et003"]
+[ext_resource type="FontFile" uid="uid://06xeqe2xedhp" path="res://resources/fonts/HelvetiPixel.ttf" id="3_s7sff"]
+
+[sub_resource type="Theme" id="Theme_ssdqt"]
+default_font = ExtResource("3_s7sff")
+default_font_size = 24
+
+[sub_resource type="Theme" id="Theme_wmmk3"]
+default_font = ExtResource("3_s7sff")
+default_font_size = 24
+
+[node name="Mail" type="CanvasLayer"]
+script = ExtResource("1_i3v4f")
+
+[node name="Mail" type="Sprite2D" parent="."]
+position = Vector2(160, 90)
+texture = ExtResource("2_et003")
+
+[node name="Address" type="Label" parent="."]
+modulate = Color(0.133333, 0.12549, 0.203922, 1)
+offset_left = 13.0
+offset_top = 136.0
+offset_right = 57.0
+offset_bottom = 159.0
+rotation = -0.261799
+theme = SubResource("Theme_ssdqt")
+text = "1234"
+
+[node name="Lot" type="Label" parent="."]
+offset_left = 30.0
+offset_top = 159.0
+offset_right = 74.0
+offset_bottom = 182.0
+rotation = -0.261799
+theme = SubResource("Theme_wmmk3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "A8"

@@ -11,7 +11,7 @@ var flagUp = false
 
 func _ready() -> void:
 	$Flag.frame = myColor
-	$Label.text = "%04d" % myAddress
+	$Label.text = "%0d" % myAddress
 
 func _process(float) -> void:
 	if(flagUp): 
