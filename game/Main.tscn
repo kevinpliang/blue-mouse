@@ -1,13 +1,29 @@
-[gd_scene load_steps=3 format=3 uid="uid://dxkef1gc28ye"]
+[gd_scene load_steps=7 format=3 uid="uid://dxkef1gc28ye"]
 
 [ext_resource type="Script" path="res://game/Main.gd" id="1"]
 [ext_resource type="PackedScene" path="res://game/Menu.tscn" id="2_41vo2"]
+[ext_resource type="FontFile" uid="uid://dodqcv14krghq" path="res://resources/fonts/Dedicool.ttf" id="3_kohuk"]
+[ext_resource type="FontFile" uid="uid://06xeqe2xedhp" path="res://resources/fonts/HelvetiPixel.ttf" id="4_0vtpv"]
+
+[sub_resource type="Theme" id="Theme_52ftn"]
+default_font = ExtResource("3_kohuk")
+default_font_size = 24
+
+[sub_resource type="Theme" id="Theme_vgp6m"]
+default_font = ExtResource("4_0vtpv")
 
 [node name="Main" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1")
 
 [node name="Menu" parent="." instance=ExtResource("2_41vo2")]
+
+[node name="Label" parent="Menu/VBoxContainer" index="0"]
+theme = SubResource("Theme_52ftn")
+
+[node name="Start" parent="Menu/VBoxContainer" index="1"]
+theme = SubResource("Theme_vgp6m")
+flat = true
 
 [connection signal="button_down" from="Menu/VBoxContainer/Start" to="." method="_on_start_button_down"]
 
