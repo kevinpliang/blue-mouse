@@ -95,3 +95,7 @@ shape = SubResource("RectangleShape2D_2gy6c")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 z_index = 1
+limit_left = -768
+limit_top = -576
+limit_right = 704
+limit_bottom = 576

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dxkef1gc28ye"]
 
 [ext_resource type="Script" path="res://game/Main.gd" id="1"]
-[ext_resource type="PackedScene" uid="uid://df7blng4hqveg" path="res://game/Menu.tscn" id="2_41vo2"]
+[ext_resource type="PackedScene" path="res://game/Menu.tscn" id="2_41vo2"]
 
 [node name="Main" type="Node2D"]
 y_sort_enabled = true
