@@ -3,14 +3,14 @@ extends CharacterBody2D
 const ACCELERATION := 70.0
 const MAX_SPEED := 120.0
 const FRICTION := 100.0
-const TURN_SPEED := 3.0  # radians per second
+const TURN_SPEED := 4.0  # radians per second
 
 var direction: Vector2 = Vector2.RIGHT
 
 func change_sprite_per_direction() -> void:
 	var vel_angle = direction.angle()
 	for sprite_layer in $Sprite2D.get_children():
-		sprite_layer.rotation = vel_angle
+		sprite_layer.rotation = vel_angle 
 
 func _physics_process(delta: float) -> void:
 	var input_forward = Input.get_action_strength("ui_up") - Input.get_action_strength("ui_down")
