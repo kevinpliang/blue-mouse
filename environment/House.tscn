@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://20wtvdlb0fru"]
+
+[ext_resource type="Script" path="res://environment/house.gd" id="1_xlxl5"]
+[ext_resource type="Texture2D" uid="uid://ctl72k38fy777" path="res://environment/assets/flags.aseprite" id="2_62l5n"]
+[ext_resource type="FontFile" uid="uid://btml3xkhwnl0a" path="res://resources/fonts/3-by-5-pixel-font.ttf" id="3_jdokp"]
+
+[sub_resource type="Theme" id="Theme_681t8"]
+default_font = ExtResource("3_jdokp")
+default_font_size = 8
+
+[node name="House" type="Node2D"]
+script = ExtResource("1_xlxl5")
+
+[node name="Flag" type="Sprite2D" parent="."]
+z_index = 2
+texture = ExtResource("2_62l5n")
+centered = false
+hframes = 2
+vframes = 2
+region_rect = Rect2(0, 0, 16, 16)
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(0, 0, 0, 0.227451)
+z_index = 2
+offset_left = 9.0
+offset_top = 14.0
+offset_right = 25.0
+offset_bottom = 19.0
+theme = SubResource("Theme_681t8")
+text = "test"

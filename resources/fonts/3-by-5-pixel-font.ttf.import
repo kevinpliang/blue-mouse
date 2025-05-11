@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://clsxr61wqmi2q"
-path="res://.godot/imported/Mademoiselle.ttf-23273de41a64f43ca596fb5017c870fc.fontdata"
+uid="uid://btml3xkhwnl0a"
+path="res://.godot/imported/3-by-5-pixel-font.ttf-34a1431e484bebcbd3209ae740286fd3.fontdata"
 
 [deps]
 
-source_file="res://resources/fonts/Mademoiselle.ttf"
-dest_files=["res://.godot/imported/Mademoiselle.ttf-23273de41a64f43ca596fb5017c870fc.fontdata"]
+source_file="res://resources/fonts/3-by-5-pixel-font.ttf"
+dest_files=["res://.godot/imported/3-by-5-pixel-font.ttf-34a1431e484bebcbd3209ae740286fd3.fontdata"]
 
 [params]
 
